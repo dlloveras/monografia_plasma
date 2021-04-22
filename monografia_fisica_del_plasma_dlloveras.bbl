@@ -1,0 +1,370 @@
+\begin{thebibliography}{18}
+% BibTex style file: spr-mp-sola.bst (nameyear), 2019-03-01
+\ifx\bisbn     \undefined \def\bisbn  #1{ISBN #1}\fi
+\ifx\binits    \undefined \def\binits#1{#1}\fi
+\ifx\bauthor   \undefined \def\bauthor#1{#1}\fi
+\ifx\batitle   \undefined \def\batitle#1{#1}\fi
+\ifx\bjtitle   \undefined \def\bjtitle#1{\textit{#1}}\fi
+\ifx\bvolume   \undefined \def\bvolume#1{\textbf{#1}}\fi
+\ifx\byear     \undefined \def\byear#1{#1}\fi
+\ifx\bissue    \undefined \def\bissue#1{#1}\fi
+\ifx\bfpage    \undefined \def\bfpage#1{#1}\fi
+\ifx\blpage    \undefined \def\blpage #1{#1}\fi
+\ifx\burl      \undefined \def\burl#1{\textsf{#1}}\fi
+\ifx\href      \undefined \def\href#1#2{\textsf{#2}}\fi
+\ifx\betal     \undefined \def\betal{\textit{et al.}}\fi
+\ifx\bctitle   \undefined \def\bctitle#1{#1}\fi
+\ifx\beditor   \undefined \def\beditor#1{#1}\fi
+\ifx\bbtitle   \undefined \def\bbtitle#1{\textit{#1}}\fi
+\ifx\bedition  \undefined \def\bedition#1{#1}\fi
+\ifx\bseriesno \undefined \def\bseriesno#1{\textbf{#1}}\fi
+\ifx\blocation \undefined \def\blocation#1{#1}\fi
+\ifx\bsertitle \undefined \def\bsertitle#1{\textit{#1}}\fi
+\ifx\bsnm      \undefined \def\bsnm#1{#1}\fi
+\ifx\bsuffix   \undefined \def\bsuffix#1{#1}\fi
+\ifx\bparticle \undefined \def\bparticle#1{#1}\fi
+\ifx\barticle  \undefined \def\barticle#1{}\fi
+\ifx\binstitute  \undefined \def\binstitute#1{#1}\fi
+\ifx\bpublisher  \undefined \def\bpublisher#1{#1}\fi
+\ifx\doiurl    \undefined \def\doiurl#1{\href{#1}{\textsf{DOI}}}\fi
+\makeatletter
+\def\safeHref#1#2#3{\in@{http}{#2}\ifin@\href{#2}{#3}\else\href{#1#2}{#3}\fi}
+\makeatother
+\ifx\adsurl    \undefined
+  \def\adsurl#1{\safeHref{http://adsabs.harvard.edu/abs/}{#1}{\textsf{ADS}}}\fi
+\ifx\arxivurl  \undefined
+  \def\arxivurl#1{\safeHref{http://arxiv.org/abs/}{#1}{\textsf{arXiv}}}\fi
+\ifx\botherref \undefined \def\botherref#1{}\fi
+\ifx\url       \undefined \def\url#1{\textsf{#1}}\fi
+\ifx\bchapter  \undefined \def\bchapter#1{}\fi
+\ifx\bbook     \undefined \def\bbook#1{}\fi
+\ifx\bcomment  \undefined \def\bcomment#1{#1}\fi
+\ifx\oauthor   \undefined \def\oauthor#1{#1}\fi
+\ifx\citeauthoryear \undefined\def \citeauthoryear#1{#1}\fi
+\def\endbibitem {}
+\ifx\bconflocation  \undefined \def\bconflocation#1{#1} \fi
+
+\bibitem[\protect\citeauthoryear{Davidson}{2013}]{davidson_2013}
+\begin{bbook}
+\bauthor{\bsnm{Davidson}, \binits{P.A.}}:
+\byear{2013},
+\bbtitle{Turbulence in rotating, stratified and electrically conducting
+  fluids},
+\bpublisher{Cambridge University Press}, \blocation{???}
+\doiurl{https://doi.org/10.1017/CBO9781139208673}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Dmitruk}
+  \textit{et~al.}}{2002}]{dmitruk_2002}
+\begin{barticle}
+\bauthor{\bsnm{{Dmitruk}}, \binits{P.}},
+\bauthor{\bsnm{{Matthaeus}}, \binits{W.H.}},
+\bauthor{\bsnm{{Milano}}, \binits{L.J.}},
+\bauthor{\bsnm{{Oughton}}, \binits{S.}},
+\bauthor{\bsnm{{Zank}}, \binits{G.P.}},
+\bauthor{\bsnm{{Mullan}}, \binits{D.J.}}:
+\byear{2002},
+\batitle{Coronal heating distribution due to low-frequency, wave-driven
+  turbulence}.
+\bjtitle{\apj}
+\bvolume{575}(\bissue{1}),
+\bfpage{571}.
+\doiurl{https://doi.org/10.1086/341188}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2002ApJ...575..571D}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Elsasser}}{1950}]{elsasser_1950}
+\begin{barticle}
+\bauthor{\bsnm{{Elsasser}}, \binits{W.M.}}:
+\byear{1950},
+\batitle{{The Hydromagnetic Equations}}.
+\bjtitle{Physical Review}
+\bvolume{79}(\bissue{1}),
+\bfpage{183}.
+\doiurl{https://doi.org/10.1103/PhysRev.79.183}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1950PhRv...79..183E}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Goedbloed} and
+  {Poedts}}{2004}]{goedbloed_2004}
+\begin{bbook}
+\bauthor{\bsnm{{Goedbloed}}, \binits{J.P.H.}},
+\bauthor{\bsnm{{Poedts}}, \binits{S.}}:
+\byear{2004},
+\bbtitle{{Principles of Magnetohydrodynamics}}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2004prma.book.....G}.
+\end{bbook}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Gombosi}
+  \textit{et~al.}}{2018}]{gombosi_2018}
+\begin{barticle}
+\bauthor{\bsnm{{Gombosi}}, \binits{T.I.}},
+\bauthor{\bsnm{{van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Manchester}}, \binits{W.B.}},
+\bauthor{\bsnm{{Sokolov}}, \binits{I.V.}}:
+\byear{2018},
+\batitle{{Extended MHD modeling of the steady solar corona and the solar
+  wind}}.
+\bjtitle{Living Reviews in Solar Physics}
+\bvolume{15}(\bissue{1}),
+\bfpage{4}.
+\doiurl{https://doi.org/10.1007/s41116-018-0014-4}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2018LRSP...15....4G}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Hollweg}}{1978}]{hollweg_1978}
+\begin{barticle}
+\bauthor{\bsnm{{Hollweg}}, \binits{J.V.}}:
+\byear{1978},
+\batitle{{Some physical processes in the solar wind.}}
+\bjtitle{Reviews of Geophysics and Space Physics}
+\bvolume{16},
+\bfpage{689}.
+\doiurl{https://doi.org/10.1029/RG016i004p00689}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1978RvGSP..16..689H}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Hollweg}}{1986}]{hollweg_1986}
+\begin{barticle}
+\bauthor{\bsnm{{Hollweg}}, \binits{J.V.}}:
+\byear{1986},
+\batitle{{Transition region, corona, and solar wind in coronal holes}}.
+\bjtitle{\jgr}
+\bvolume{91}(\bissue{A4}),
+\bfpage{4111}.
+\doiurl{https://doi.org/10.1029/JA091iA04p04111}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1986JGR....91.4111H}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Jacques}}{1977}]{jacques_1977}
+\begin{barticle}
+\bauthor{\bsnm{{Jacques}}, \binits{S.A.}}:
+\byear{1977},
+\batitle{{Momentum and energy transport by waves in the solar atmosphere and
+  solar wind.}}
+\bjtitle{\apj}
+\bvolume{215},
+\bfpage{942}.
+\doiurl{https://doi.org/10.1086/155430}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1977ApJ...215..942J}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Kolmogorov}}{1941}]{kolmogorov_1941}
+\begin{barticle}
+\bauthor{\bsnm{{Kolmogorov}}, \binits{A.}}:
+\byear{1941},
+\batitle{{The Local Structure of Turbulence in Incompressible Viscous Fluid for
+  Very Large Reynolds' Numbers}}.
+\bjtitle{Akademiia Nauk SSSR Doklady}
+\bvolume{30},
+\bfpage{301}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1941DoSSR..30..301K}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Lloveras}
+  \textit{et~al.}}{2020a}]{lloveras_2020BAAA}
+\begin{barticle}
+\bauthor{\bsnm{{Lloveras}}, \binits{D.G.}},
+\bauthor{\bsnm{{V{\'a}squez}}, \binits{A.M.}},
+\bauthor{\bsnm{{Nuevo}}, \binits{F.A.}},
+\bauthor{\bsnm{{Mac Cormack}}, \binits{C.}},
+\bauthor{\bsnm{{Sachdeva}}, \binits{N.}},
+\bauthor{\bsnm{{Manchester}}, \binits{I.} \bsuffix{W.}},
+\bauthor{\bsnm{{Van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Frazin}}, \binits{R.A.}}:
+\byear{2020}a,
+\batitle{{Estudio de validaci{\'o}n tomogr{\'a}fica del modelo MHD AWSoM}}.
+\bjtitle{Boletin de la Asociacion Argentina de Astronomia La Plata Argentina}
+\bvolume{61B},
+\bfpage{4}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2020BAAA...61B...4L}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Lloveras}
+  \textit{et~al.}}{2020b}]{lloveras_2020}
+\begin{barticle}
+\bauthor{\bsnm{{Lloveras}}, \binits{D.G.}},
+\bauthor{\bsnm{{V{\'a}squez}}, \binits{A.M.}},
+\bauthor{\bsnm{{Nuevo}}, \binits{F.A.}},
+\bauthor{\bsnm{{Mac Cormack}}, \binits{C.}},
+\bauthor{\bsnm{{Sachdeva}}, \binits{N.}},
+\bauthor{\bsnm{{Manchester}}, \binits{W.}},
+\bauthor{\bsnm{{Van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Frazin}}, \binits{R.A.}}:
+\byear{2020}b,
+\batitle{{Thermodynamic Structure of the Solar Corona: Tomographic
+  Reconstructions and MHD Modeling}}.
+\bjtitle{\solphys}
+\bvolume{295}(\bissue{6}),
+\bfpage{76}.
+\doiurl{https://doi.org/10.1007/s11207-020-01641-z}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...76L}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Magyar}, {Van Doorsselaere}, and
+  {Goossens}}{2019}]{magyar_2019}
+\begin{barticle}
+\bauthor{\bsnm{{Magyar}}, \binits{N.}},
+\bauthor{\bsnm{{Van Doorsselaere}}, \binits{T.}},
+\bauthor{\bsnm{{Goossens}}, \binits{M.}}:
+\byear{2019},
+\batitle{{The Nature of Els{\"a}sser Variables in Compressible MHD}}.
+\bjtitle{\apj}
+\bvolume{873}(\bissue{1}),
+\bfpage{56}.
+\doiurl{https://doi.org/10.3847/1538-4357/ab04a7}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2019ApJ...873...56M}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{McComas}
+  \textit{et~al.}}{2000}]{mccomas_2000}
+\begin{barticle}
+\bauthor{\bsnm{{McComas}}, \binits{D.J.}},
+\bauthor{\bsnm{{Barraclough}}, \binits{B.L.}},
+\bauthor{\bsnm{{Funsten}}, \binits{H.O.}},
+\bauthor{\bsnm{{Gosling}}, \binits{J.T.}},
+\bauthor{\bsnm{{Santiago-Mu{\~n}oz}}, \binits{E.}},
+\bauthor{\bsnm{{Skoug}}, \binits{R.M.}},
+\bauthor{\bsnm{{Goldstein}}, \binits{B.E.}},
+\bauthor{\bsnm{{Neugebauer}}, \binits{M.}},
+\bauthor{\bsnm{{Riley}}, \binits{P.}},
+\bauthor{\bsnm{{Balogh}}, \binits{A.}}:
+\byear{2000},
+\batitle{{Solar wind observations over Ulysses' first full polar orbit}}.
+\bjtitle{\jgr}
+\bvolume{105}(\bissue{A5}),
+\bfpage{10419}.
+\doiurl{https://doi.org/10.1029/1999JA000383}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2000JGR...10510419M}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Oran} \textit{et~al.}}{2015}]{oran_2015}
+\begin{barticle}
+\bauthor{\bsnm{{Oran}}, \binits{R.}},
+\bauthor{\bsnm{{Landi}}, \binits{E.}},
+\bauthor{\bsnm{{van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Lepri}}, \binits{S.T.}},
+\bauthor{\bsnm{{V{\'a}squez}}, \binits{A.M.}},
+\bauthor{\bsnm{{Nuevo}}, \binits{F.A.}},
+\bauthor{\bsnm{{Frazin}}, \binits{R.}},
+\bauthor{\bsnm{{Manchester}}, \binits{W.}},
+\bauthor{\bsnm{{Sokolov}}, \binits{I.}},
+\bauthor{\bsnm{{Gombosi}}, \binits{T.I.}}:
+\byear{2015},
+\batitle{{A Steady-state Picture of Solar Wind Acceleration and Charge State
+  Composition Derived from a Global Wave-driven MHD Model}}.
+\bjtitle{\apj}
+\bvolume{806}(\bissue{1}),
+\bfpage{55}.
+\doiurl{https://doi.org/10.1088/0004-637X/806/1/55}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2015ApJ...806...55O}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Sachdeva}
+  \textit{et~al.}}{2019}]{sachdeva_2019}
+\begin{barticle}
+\bauthor{\bsnm{{Sachdeva}}, \binits{N.}},
+\bauthor{\bsnm{{van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Manchester}}, \binits{W.B.}},
+\bauthor{\bsnm{{T{\'o}th}}, \binits{G.}},
+\bauthor{\bsnm{{Chen}}, \binits{Y.}},
+\bauthor{\bsnm{{Lloveras}}, \binits{D.G.}},
+\bauthor{\bsnm{{V{\'a}squez}}, \binits{A.M.}},
+\bauthor{\bsnm{{Lamy}}, \binits{P.}},
+\bauthor{\bsnm{{Wojak}}, \binits{J.}},
+\bauthor{\bsnm{{Jackson}}, \binits{B.V.}},
+\bauthor{\bsnm{{Yu}}, \binits{H.-S.}},
+\bauthor{\bsnm{{Henney}}, \binits{C.J.}}:
+\byear{2019},
+\batitle{{Validation of the Alfv{\'e}n Wave Solar Atmosphere Model (AWSoM) with
+  Observations from the Low Corona to 1 au}}.
+\bjtitle{\apj}
+\bvolume{887}(\bissue{1}),
+\bfpage{83}.
+\doiurl{https://doi.org/10.3847/1538-4357/ab4f5e}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2019ApJ...887...83S}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{Spitzer} and {H{\"a}rm}}{1953}]{spitzer_1953}
+\begin{barticle}
+\bauthor{\bsnm{{Spitzer}}, \binits{L.}},
+\bauthor{\bsnm{{H{\"a}rm}}, \binits{R.}}:
+\byear{1953},
+\batitle{{Transport Phenomena in a Completely Ionized Gas}}.
+\bjtitle{Physical Review}
+\bvolume{89}(\bissue{5}),
+\bfpage{977}.
+\doiurl{https://doi.org/10.1103/PhysRev.89.977}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/1953PhRv...89..977S}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{T{\'o}th} \textit{et~al.}}{2005}]{swmf_2005}
+\begin{barticle}
+\bauthor{\bsnm{{T{\'o}th}}, \binits{G.}},
+\bauthor{\bsnm{{Sokolov}}, \binits{I.V.}},
+\bauthor{\bsnm{{Gombosi}}, \binits{T.I.}},
+\bauthor{\bsnm{{Chesney}}, \binits{D.R.}},
+\bauthor{\bsnm{{Clauer}}, \binits{C.R.}},
+\bauthor{\bsnm{{de Zeeuw}}, \binits{D.L.}},
+\bauthor{\bsnm{{Hansen}}, \binits{K.C.}},
+\bauthor{\bsnm{{Kane}}, \binits{K.J.}},
+\bauthor{\bsnm{{Manchester}}, \binits{W.B.}},
+\bauthor{\bsnm{{Oehmke}}, \binits{R.C.}},
+\bauthor{\bsnm{{Powell}}, \binits{K.G.}},
+\bauthor{\bsnm{{Ridley}}, \binits{A.J.}},
+\bauthor{\bsnm{{Roussev}}, \binits{I.I.}},
+\bauthor{\bsnm{{Stout}}, \binits{Q.F.}},
+\bauthor{\bsnm{{Volberg}}, \binits{O.}},
+\bauthor{\bsnm{{Wolf}}, \binits{R.A.}},
+\bauthor{\bsnm{{Sazykin}}, \binits{S.}},
+\bauthor{\bsnm{{Chan}}, \binits{A.}},
+\bauthor{\bsnm{{Yu}}, \binits{B.}},
+\bauthor{\bsnm{{K{\'o}ta}}, \binits{J.}}:
+\byear{2005},
+\batitle{{Space Weather Modeling Framework: A new tool for the space science
+  community}}.
+\bjtitle{Journal of Geophysical Research (Space Physics)}
+\bvolume{110}(\bissue{A12}),
+\bfpage{A12226}.
+\doiurl{https://doi.org/10.1029/2005JA011126}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2005JGRA..11012226T}.
+\end{barticle}
+\endbibitem
+
+\bibitem[\protect\citeauthoryear{{van der Holst}
+  \textit{et~al.}}{2014}]{vander_2014}
+\begin{barticle}
+\bauthor{\bsnm{{van der Holst}}, \binits{B.}},
+\bauthor{\bsnm{{Sokolov}}, \binits{I.V.}},
+\bauthor{\bsnm{{Meng}}, \binits{X.}},
+\bauthor{\bsnm{{Jin}}, \binits{M.}},
+\bauthor{\bsnm{{Manchester}}, \binits{I.} \bsuffix{W.~B.}},
+\bauthor{\bsnm{{T{\'o}th}}, \binits{G.}},
+\bauthor{\bsnm{{Gombosi}}, \binits{T.I.}}:
+\byear{2014},
+\batitle{{Alfv{\'e}n Wave Solar Model (AWSoM): Coronal Heating}}.
+\bjtitle{\apj}
+\bvolume{782}(\bissue{2}),
+\bfpage{81}.
+\doiurl{https://doi.org/10.1088/0004-637X/782/2/81}.
+\adsurl{https://ui.adsabs.harvard.edu/abs/2014ApJ...782...81V}.
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

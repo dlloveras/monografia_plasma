@@ -1,0 +1,15 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}% 
+\contentsline {section}{\numberline {1.1}Sol}{1}% 
+\contentsline {subsection}{\numberline {1.1.1}Viento solar}{2}% 
+\contentsline {chapter}{\numberline {2}Magnetohydrodin\IeC {\'a}mica}{6}% 
+\contentsline {section}{\numberline {2.1}MHD ideal}{7}% 
+\contentsline {section}{\numberline {2.2}Leyes de conservaci\IeC {\'o}n}{9}% 
+\contentsline {subsection}{\numberline {2.2.1}Funciones de p\IeC {\'e}rdida de energ\IeC {\'\i }a}{12}% 
+\contentsline {section}{\numberline {2.3}Inducci\IeC {\'o}n magn\IeC {\'e}tica}{13}% 
+\contentsline {section}{\numberline {2.4}Ondas de Alfv\IeC {\'e}n}{14}% 
+\contentsline {subsection}{\numberline {2.4.1}Disipaci\IeC {\'o}n de ondas de Alfv\IeC {\'e}n}{15}% 
+\contentsline {section}{\numberline {2.5}Calentamiento por turbulencia MHD}{17}% 
+\contentsline {chapter}{\numberline {3}Modelo solar por calentamiento de ondas de Alfv\IeC {\'e}n}{19}% 
+\contentsline {subsection}{\numberline {3.0.1}Resultados MHD}{22}% 
+\contentsline {chapter}{\numberline {4}Ap\IeC {\'e}ndice}{25}% 
